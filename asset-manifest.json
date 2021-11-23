@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/harsh-shri/Mint_nft.git/static/css/main.b4ef67af.chunk.css",
+    "main.js": "/harsh-shri/Mint_nft.git/static/js/main.47b5db21.chunk.js",
+    "main.js.map": "/harsh-shri/Mint_nft.git/static/js/main.47b5db21.chunk.js.map",
+    "runtime-main.js": "/harsh-shri/Mint_nft.git/static/js/runtime-main.0df16bfa.js",
+    "runtime-main.js.map": "/harsh-shri/Mint_nft.git/static/js/runtime-main.0df16bfa.js.map",
+    "static/js/2.4f637256.chunk.js": "/harsh-shri/Mint_nft.git/static/js/2.4f637256.chunk.js",
+    "static/js/2.4f637256.chunk.js.map": "/harsh-shri/Mint_nft.git/static/js/2.4f637256.chunk.js.map",
+    "static/js/3.48e6cbdd.chunk.js": "/harsh-shri/Mint_nft.git/static/js/3.48e6cbdd.chunk.js",
+    "static/js/3.48e6cbdd.chunk.js.map": "/harsh-shri/Mint_nft.git/static/js/3.48e6cbdd.chunk.js.map",
+    "index.html": "/harsh-shri/Mint_nft.git/index.html",
+    "static/css/main.b4ef67af.chunk.css.map": "/harsh-shri/Mint_nft.git/static/css/main.b4ef67af.chunk.css.map",
+    "static/js/2.4f637256.chunk.js.LICENSE.txt": "/harsh-shri/Mint_nft.git/static/js/2.4f637256.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0df16bfa.js",
+    "static/js/2.4f637256.chunk.js",
+    "static/css/main.b4ef67af.chunk.css",
+    "static/js/main.47b5db21.chunk.js"
+  ]
+}
