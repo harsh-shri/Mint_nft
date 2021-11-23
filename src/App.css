@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+
+/* Home Component */
+
+.home-container{
+  margin-top: 5rem;
+}
+.home-heading_span{
+  background-color: #6C757D;
+  border-radius: 50%;
+  color: #000;
+  opacity: 0.8;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 18px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
+  background-color: rgb(24, 23, 23);
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 
-.App-link {
-  color: #61dafb;
+input:checked + .slider {
+  background-color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input:focus + .slider {
+  box-shadow: 0 0 1px #fff;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.heading{
+  padding-left: 2.5rem;
+}
+.input{
+  background-color: #13141459;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.name-input input{
+  width: 90%;;
+}
+
+.add-more{
+  background: #7d868f;
+  color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Foot component */
+.next-link{
+  max-width: 10em;
+  font-weight: bold;
+  cursor: pointer;
 }
